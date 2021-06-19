@@ -1,0 +1,52 @@
+.center-box {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(42, 42, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.part2{
+    width: 1000px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(10, 155, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dojo{
+    height: 70%;
+
+}
+
+.list {
+    padding: 10px;
+    display: flex;
+    color: rgb(10, 155, 252);
+}
+
+li {
+    padding: 20px;
+    margin-left: 30px;
+    
+}
+
+.header {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}

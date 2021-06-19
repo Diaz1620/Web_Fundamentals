@@ -1,0 +1,70 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 1000px;
+    height: 600px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 10px;
+    
+}
+
+#header{
+    min-height: 100px;
+    background-color: green;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px dotted red;
+}   
+
+#navigation{
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#main_content{
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    padding: 5px;
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    padding: 0px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 5px dotted red;
+}
+
+#advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid yellow;
+}
