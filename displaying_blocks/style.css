@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 560px;
+    height: 500px;
+    margin: 30px;
+    padding: 30px;
+    background-color: bisque;
+}
+
+#header{
+    height: auto;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.cats{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 2px;
+    display: block;
+}
+
+.first_row{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.top_cat{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+}
+
+h1{
+    display: inline;
+}
+
+.red{
+    background-color: rgb(241, 129, 129);
+}
