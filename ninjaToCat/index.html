@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $('document').ready(function(){
+            $('img').click(function() {
+            $(this).attr("src", function(){
+                return this.title;
+            });
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="img/ninja0.png" title="cat0.png"/>
+        <img src="img/ninja1.png" title="cat1.png"/>
+        <img src="img/ninja2.png" title="cat2.png"/>
+        <img src="img/ninja3.png" title="cat3.png"/>
+        <img src="img/ninja4.png" title="cat4.png"/>
+    </div>
+</body>
+</html>
