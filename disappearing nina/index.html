@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Baby</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('docment').ready(function(){
+            // alert('i am here');
+            $('img').click(function(){
+                $(this).hide()
+            })
+            $('button').click(function(){
+                $('img').show()
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+        <img src="baby.jpg" alt="baby">
+    </div>
+    <button>Restore</button>
+</body>
+</html>
