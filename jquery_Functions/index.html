@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('document').ready(function(){
+            // alert("I Have Arrived");
+            // $('button.bad').click(function(){
+                
+            // })
+            // $('li').addClass("selected higlight");
+            $('img').hide();
+            $('h3').after('<p>Take Your Time</p>');
+            $('h3').before('<h2>Choose Wisely</h2>');
+            $("h1").click(function(){
+                $('p').toggle();
+            });
+            $('li').click(function(){
+                $(this).hide();
+            })
+            $('h2').click(function(){
+                $('li').show();
+            })
+            $('.good').click(function(){
+                $('.hello').fadeIn()
+            })
+            $('.bad').hover(function(){
+                $('.hello').slideUp()
+            })
+            $('.bad').click(function(){
+                $('.mad').slideDown().after("<p>Are you sure</p>")
+            })
+            $('h3').hover(function(){
+                $('.sitting').slideToggle()
+            })
+        });
+    </script>  
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hello earthlings!</h1>
+            <p>I am not of this world but no worries I have come in peace for the sole purpose of allowing you all to be my loyal subject.Rejoice!</p>
+        </div>
+        <div class="content">
+            <h2>Here is a list of all the reasons to be my subjects.</h2>
+            <ul>
+                <li>I am green and cute</li>
+                <li>I give free ice cream on fridays</li>
+                <li>You need not worry about money</li>
+                <li>You will be killed if you choose not to.</li>
+            </ul>
+        </div>
+        <h3>I'll be waiting!</h3>
+        <button class="good">Click Here to accept!</button>
+        <button class="bad">Click here to refuse...</button>
+        <img class="sitting" src="sitting_alien.jpg" alt="alien sitting">
+        <img class="mad" src="mad-alien.jpg" alt="Mad Alien">
+        <img class="hello" src="helloAlien.jpg" alt="Alien Waving">
+    </div>
+    
+</body>
+</html>
