@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('document').ready(function(){
+            $('img').hover(function(){
+                $(this).attr("src", function(){
+                    return this.title;
+                })
+            }, function(){
+                $(this).attr("src", function(){
+                    return this.alt;
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <img src="bakugo_front.jpg" alt="bakugo_front.jpg" title="bakugo_back.jpg">
+    <img src="deku_front.jpg" alt="deku_front.jpg" title="deku_back.jpg">
+    <img src="ochaco_front.jfif" alt="ochaco_front.jfif" title="Ochaco_back.jpg">
+    <img src="tsu_front.jpg" alt="tsu_front.jpg"  title="tsu_back.jpg">
+</body>
+</html>
